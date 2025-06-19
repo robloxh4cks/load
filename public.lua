@@ -16,7 +16,7 @@ local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 
 if queue_on_teleport then
-    queue_on_teleport(game:HttpGet('https://yourdomain.com/path/to/public-screen.lua'))
+    queue_on_teleport(game:HttpGet('https://raw.githubusercontent.com/robloxh4cks/load/refs/heads/main/public.lua'))
 end
 
 -- Anti-AFK System
